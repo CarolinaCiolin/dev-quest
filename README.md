@@ -4,4 +4,4 @@
 
 [Exercise 3](https://carolinaciolin.github.io/dev-quest/html-css-basic/ex3/index.html)
 
-[Desafio Tabela](https://carolinaciolin.github.io/dev-quest/html-css-basic/desafio-tabela/index.html)
+[Challenge: Table](https://carolinaciolin.github.io/dev-quest/html-css-basic/desafio-tabela/index.html)
