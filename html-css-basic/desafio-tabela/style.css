@@ -1,0 +1,26 @@
+body{
+    font-size: 18px;
+}
+
+table td{
+    background-color: #424250;
+    padding: 10px;
+    width: 100px;
+    color: #fff;
+}
+
+table th{
+    color: #fff;
+}
+
+table tr{
+    padding: 10px;
+}
+
+#tabela-moda th{
+    background-color: #BB86FC;
+}
+
+#tabela-casa th{
+    background-color: #00C4B4;
+}
