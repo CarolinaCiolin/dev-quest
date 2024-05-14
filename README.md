@@ -1,10 +1,11 @@
-<center>
+
+<div align="center">
 
 # Exercises and Challenges - Dev Quest
 
 ![ ](/dev-quest-logo.png)
 
-</center>
+</div>
 
 ## 1st Stage - HTML and CSS Basics
 
