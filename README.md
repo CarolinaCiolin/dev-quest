@@ -1,12 +1,12 @@
 <center>
 
-# <span style="color: #00EEA2">Exercises and Challenges - Dev Quest</span>
+# Exercises and Challenges - Dev Quest
 
 ![ ](/dev-quest-logo.png)
 
 </center>
 
-## <span style="color: #9A3DF1"> 1st Stage - HTML and CSS Basics</span>
+## 1st Stage - HTML and CSS Basics
 
 [Exercise 1](https://carolinaciolin.github.io/dev-quest/html-css-basic/ex1.html)
 
