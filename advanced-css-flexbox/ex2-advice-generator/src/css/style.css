@@ -1,0 +1,65 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.advice-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+    max-width: 480px;
+    border-radius: 15px;
+    padding: 40px;
+    gap: 20px;
+}
+
+.advice-box > h2{
+    font-size: 10px;
+    letter-spacing: 4px;
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+}
+
+.advice-box > p{
+    text-align: center;
+    font-size: 24px;
+    color: hsl(193, 38%, 86%);
+}
+
+.advice-box > picture > .divisor{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.advice-update{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-45%);
+}
+
+.advice-update:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
+
+.advice-update > img{
+    width: 20px;
+}
+
