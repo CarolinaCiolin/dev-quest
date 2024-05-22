@@ -22,3 +22,5 @@
 [Exercise 1: Profile Card](https://carolinaciolin.github.io/dev-quest/advanced-css-flexbox/ex1-profile-card/index.html)
 
 [Exercise 2: Advice Generator](https://carolinaciolin.github.io/dev-quest/advanced-css-flexbox/ex2-advice-generator/index.html)
+
+[Exercise 3: Responsive Menu](https://carolinaciolin.github.io/dev-quest/advanced-css-flexbox/ex3-responsive-menu/index.html)

@@ -1,0 +1,32 @@
+@media(max-width: 740px){
+	
+    header{
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .logo > p{
+        font-size: 40px;
+    }
+	
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav > ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav > ul > li{
+        font-size: 40px;
+        width: 230px;
+    }
+
+    .btn{
+        font-size: 18px;
+    }
+
+}
