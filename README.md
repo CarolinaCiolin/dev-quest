@@ -23,4 +23,6 @@
 
 [Exercise 2: Advice Generator](https://carolinaciolin.github.io/dev-quest/advanced-css-flexbox/ex2-advice-generator/index.html)
 
-[Exercise 3: Responsive Menu](https://carolinaciolin.github.io/dev-quest/advanced-css-flexbox/ex3-responsive-menu/index.html)
+[Exercise 3: Flexbox Menu](https://carolinaciolin.github.io/dev-quest/advanced-css-flexbox/ex3-flexbox-menu/index.html)
+
+[Exercise 4: Images List](https://carolinaciolin.github.io/dev-quest/advanced-css-flexbox/ex4-images-list/index.html)
