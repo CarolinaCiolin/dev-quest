@@ -36,4 +36,4 @@
 
 ## 4th Stage - CSS: Reinforcement
 
-[Exercise 1: NFT Card](https://carolinaciolin.github.io/nft-preview-card/)
+[Exercise 1: NFT Card](https://carolinaciolin.github.io/dev-quest/advanced-css-reinforcement/nft-preview-card-component/index.html)
