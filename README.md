@@ -31,7 +31,7 @@
 
 ## 3rd Stage - CSS Advanced: Grid
 
-[Exercise 1: NFT Card](https://carolinaciolin.github.io/dev-quest/advanced-css-flexbox/ex4-images-list/index.html)
+[Exercise 1: NFT Card](https://carolinaciolin.github.io/dev-quest/advanced-css-grid/youtube-layout/index.html)
 
 
 ## 4th Stage - CSS: Reinforcement
