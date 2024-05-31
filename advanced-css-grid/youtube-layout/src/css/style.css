@@ -1,0 +1,72 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #F7F7F7;
+    padding: 35px;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 17px;
+}
+
+.destaque{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.destaque > img{
+    margin-bottom: 4px;
+}
+
+.destaque > h1{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.destaque .views-destaque{
+    font-size: 14px;
+}
+
+.destaque .descricao-destaque{
+    font-size: 16px;
+}
+
+.relacionados{
+    background-color: orchid;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.relacionados > img{
+    margin-bottom: 5px;
+}
+
+.relacionados .item-relacionados{
+    background-color: red;
+    display: flex;
+    gap: 5px;
+}
+
+.item-relacionados .info-relacionados{
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-relacionados > h2{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.info-relacionados > p{
+    font-size: 11px;
+}
