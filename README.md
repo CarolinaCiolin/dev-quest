@@ -15,7 +15,8 @@
 
 [Exercise 3: Colorful paragraphs](https://carolinaciolin.github.io/dev-quest/html-css-basic/ex3/index.html)
 
-[Challenge: Table](https://carolinaciolin.github.io/dev-quest/html-css-basic/desafio-tabela/index.html)
+[Exercise 4: Challenge - Table](https://carolinaciolin.github.io/dev-quest/html-css-basic/desafio-tabela/index.html)
+
 
 ## 2nd Stage - CSS Advanced: Flexbox
 
@@ -26,3 +27,13 @@
 [Exercise 3: Flexbox Menu](https://carolinaciolin.github.io/dev-quest/advanced-css-flexbox/ex3-flexbox-menu/index.html)
 
 [Exercise 4: Images List](https://carolinaciolin.github.io/dev-quest/advanced-css-flexbox/ex4-images-list/index.html)
+
+
+## 3rd Stage - CSS Advanced: Grid
+
+[Exercise 1: NFT Card](https://carolinaciolin.github.io/dev-quest/advanced-css-flexbox/ex4-images-list/index.html)
+
+
+## 4th Stage - CSS: Reinforcement
+
+[Exercise 1: NFT Card](https://carolinaciolin.github.io/nft-preview-card/)
