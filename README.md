@@ -31,13 +31,13 @@
 
 ## 3rd Stage - CSS Advanced: Grid
 
-[Exercise 1: Youtube Layout](https://carolinaciolin.github.io/dev-quest/advanced-css-grid/youtube-layout/index.html)
+[Youtube Layout](https://carolinaciolin.github.io/dev-quest/advanced-css-grid/youtube-layout/index.html)
 
 
 ## 4th Stage - CSS: Reinforcement
 
-[Exercise 1: NFT Card](https://carolinaciolin.github.io/dev-quest/advanced-css-reinforcement/nft-preview-card-component/index.html)
+[NFT Card](https://carolinaciolin.github.io/dev-quest/advanced-css-reinforcement/nft-preview-card-component/index.html)
 
 ## 5th Stage - Landing Page Project
 
-[Landing Page Project](https://carolinaciolin.github.io/dev-quest/advanced-css-reinforcement/landing-page-project/index.html)
+[Landing Page Project](https://carolinaciolin.github.io/dev-quest/landing-page-project/index.html)
