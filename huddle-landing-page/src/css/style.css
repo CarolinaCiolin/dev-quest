@@ -1,11 +1,13 @@
 body{
-    background-color: var(--violet);
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-}
+    background: url('../images/bg-desktop.svg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--violet);
+} 
 
 .container{
-    background: url('../images/bg-desktop.svg') center center / cover no-repeat;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -20,10 +22,6 @@ header{
     width: 90vw;
 }
 
-.logo{
-    max-width: 200px;
-}
-
 main{
     width: 90vw;
     height: auto;
@@ -33,7 +31,6 @@ main{
 }
 
 .mockups{
-    max-width: 100%;
     height: auto;
 }
 
@@ -71,15 +68,17 @@ main{
 
 footer{
     width: 90vw;
-    height: 10%;
+    height: 15%;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 footer > address{
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    align-self: flex-end;
 }
 
 footer > address > a{
@@ -103,4 +102,14 @@ footer > address > a:hover > i{
 
 footer > address > a > i{
     font-size: 18px;
+}
+
+footer > .credits{
+    align-content: center;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer > .credits > a:hover{
+    color: var(--magenta);
 }
