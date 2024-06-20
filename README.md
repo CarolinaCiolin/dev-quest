@@ -40,4 +40,8 @@
 
 ## 5th Stage - Landing Page Project
 
-[Landing Page Project](https://carolinaciolin.github.io/dev-quest/landing-page-project/index.html)
+[Agência XYZ Landing Page](https://carolinaciolin.github.io/dev-quest/landing-page-project/index.html)
+
+## 6th Stage - Quest
+
+[Huddle Landing Page](https://carolinaciolin.github.io/dev-quest/huddle-landing-page/index.html)
