@@ -1,0 +1,22 @@
+:root{
+  --color-dark-gray: #191919;
+  --color-dark-red: #CB0F31;  
+}
+    
+:root{
+    --font-primary: 'Poppins', sans serif;
+    --fonte-secondary: 'Raleway', sans serif;
+    --fonte-gigante: 4.5rem;
+    --fonte-extra-grande: 3rem;
+    --fonte-grande: 2.4rem;
+    --fonte-normal: 1.6rem;
+}
+  
+:root{
+    --mobile-padding: 30px;
+}
+
+
+
+
+  
