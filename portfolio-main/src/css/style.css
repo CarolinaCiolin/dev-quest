@@ -3,13 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern&family=Playwrite+NZ&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Playwrite+AU+VIC&family=Playwrite+NG+Modern&family=Playwrite+NZ&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 
 html{
     color: #fff;
     font-size: 62.5%;
     font-weight: 400;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body{
@@ -55,10 +57,12 @@ header > .logo{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: 2px solid #fff;
     font-size: 3rem;
+    color: var(--color-dark-gray);
     font-weight: 700;
-    /* color: crimson; */
+    background: linear-gradient(145deg, #e2277c, #cb0f31, #000000);
+    background-size: 180% 180%;
+	animation: gradient-animation 5s ease alternate infinite;
 }
 
 .menu{
@@ -120,6 +124,7 @@ header > .menu > ul > li > a:hover{
     display: flex;
     gap: 30px;
     font-size: 2.8rem;
+    line-height: 4rem;
 }
 
 .social-media > li{
@@ -177,6 +182,19 @@ header > .menu > ul > li > a:hover{
     height: 100%;
     right: 0;
 } */
+
+.email{
+    font-size: 1.6rem;
+}
+
+.email:hover{
+    color: crimson;
+}
+
+.social-media a i:hover{
+    color: crimson;
+    transform: scale(1.4);
+}
 
 /* --- ABOUT ME --- */
 
@@ -309,6 +327,13 @@ header > .menu > ul > li > a:hover{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: #000;
+    font-size: 1.6rem;
+    height: 100%;
+}
+
+.project-description > p:last-child{
+    margin-top: auto;
 }
 
 .project-container > .project-description > h3{
@@ -318,6 +343,7 @@ header > .menu > ul > li > a:hover{
 
 .project-container > .project-description > p{
     font-size: 1.4rem;
+    line-height: 2rem;
 }
 
 .project-img-container{
@@ -356,11 +382,6 @@ header > .menu > ul > li > a:hover{
 }
 
 .projects > .projects-list > a > .projects-container > .projects-info > p{
-    font-size: 1.6rem;
-}
-
-.project-description{
-    background-color: #000;
     font-size: 1.6rem;
 }
 
