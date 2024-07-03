@@ -5,35 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/responsive.css">
     <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/hero.css">
+    <link rel="stylesheet" href="./src/css/about-me.css">
+    <link rel="stylesheet" href="./src/css/abilities.css">
+    <link rel="stylesheet" href="./src/css/projects.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+
     <link rel="stylesheet" href="./src/css/font-awesome.css">
-    
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
           
-
     <title>Carolina Ciolin - Front-end Developer</title>
 </head>
 <body>
-    <div class="container-master">
-        <header>
-            <div class="logo">CC</div>
-            <nav class="menu">
-                <input type="checkbox" id="menu-hamburger" />
-                <label for="menu-hamburger">
-                    <div class="hamburger-container">
-                        <span class="hamburger"></span>
-                    </div>
-                </label>
+    <header class="max-width-1140px margin-auto">
+        <div class="logo">CC</div>
+        <nav class="menu">
+            <input type="checkbox" id="menu-hamburger" />
+            <label for="menu-hamburger">
+                <div class="hamburger-container">
+                    <span class="hamburger"></span>
+                </div>
+            </label>
 
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#abilities">Abilities</a></li>
-                    <li><a href="#projects">My Projects</a></li>
-                </ul>
-            </nav>
-        </header>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#abilities">Abilities</a></li>
+                <li><a href="#projects">My Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="max-width-1140px margin-auto">
         <section class="hero">
             <div class="hero-container">
                 <div class="hero-info">
@@ -115,138 +119,296 @@
                 </div>
             </div>
         </section>
-        <section class="projects">
-            <H2>My Projects</H2>
-            <div class="projects-list">
-                    <div class="project-container">
-                        <div class="project-img-container">
-                            <img src="./src/imagens/huddle-2.png" alt="Huddle Landing Page">
-                            <a href="#" class="github-link">
-                                🔗 Ver no GitHub Pages
-                            </a>
+        <section id="projects">
+            <h2>My Projects</h2>
+            
+            <div class="projects-container">
+                <div id="project-1">
+                    <div class="slider">
+                        <a href="#project-5">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <div class="project-content">
+                            <div class="project-img">
+                                <a href="#" class="github-link">
+                                    🔗 Ver no GitHub Pages
+                                </a>
+                            </div>
+                            <div class="project-info">
+                                <h3>Huddle Landing Page</h3>
+                                <p>
+                                    This is a solution to the Huddle Landing Page with Single Introductory Section challenge on Frontend Mentor. Users should be able to view the optimal layout for the page depending on their device's screen size and see hover states for all interactive elements on the page.
+                                </p>
+                                <p>Built with: HTML and CSS.</p>
+                                <a href="#">🔗 Ver no GitHub Pages</a>
+                            </div>
                         </div>
-                        
-                        <div class="project-description">
-                            <h3>Huddle Landing Page</h3>
-                            <p>
-                                This is a solution to the Huddle Landing Page with Single Introductory Section challenge on Frontend Mentor. Users should be able to view the optimal layout for the page depending on their device's screen size and see hover states for all interactive elements on the page.
-                            </p>
-                            <p>Built with: HTML and CSS.</p>
-                        </div>
+                        <a href="#project-2">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>   
                     </div>
-                    <div class="project-container">
-                        <div class="project-img-container">
-                            <img src="./src/imagens/nft-2.png" alt="NFT Card">
-                            <a href="#" class="github-link">
-                                🔗 Ver no GitHub Pages
-                            </a>
-                        </div>
-                        
-                        <div class="project-description">
-                            <h3>NFT Card</h3>
-                            <p>
-                                This is a solution to the NFT Preview Card Component challenge on Frontend Mentor. Users should be able to view the optimal layout depending on their device's screen size and see hover states for interactive elements.
-                            </p>
-                            <p>Built with: HTML and CSS.</p>
-                        </div>
-                    </div>
-                    <div class="project-container">
-                        <div class="project-img-container">
-                            <img src="./src/imagens/advice-2.png" alt="Advice Generator">
-                            <a href="#" class="github-link">
-                                🔗 Ver no GitHub Pages
-                            </a>
-                        </div>
-                        
-                        <div class="project-description">
-                            <h3>Advice Generator</h3>
-                            <p>
-                                This is a solution to the Advice generator app challenge on Frontend Mentor. Users should be able to view the optimal layout for the page depending on their device's screen size and see hover states for all interactive elements on the page.
-                            </p>
-                            <p>Built with: HTML and CSS.</p>
-                        </div>
-                    </div>
-                    <div class="project-container">
-                        <div class="project-img-container">
-                            <img src="./src/imagens/agencia-xyz-2.png" alt="Huddle Landing Page">
-                            <a href="#" class="github-link">
-                                🔗 Ver no GitHub Pages
-                            </a>
-                        </div>
-                        
-                        <div class="project-description">
-                            <h3>Agência XYZ</h3>
-                            <p>
-                                This is a challenge proposed by the Dev Quest course and built using CSS Grid concepts. Users should be able to view the optimal layout for the page depending on their device's screen size and see hover states for all interactive elements on the page.
-                            </p>
-                            <p>Built with: HTML and CSS.</p>
-                        </div>
-                    </div>
-                    <div class="project-container">
-                        <div class="project-img-container">
-                            <img src="./src/imagens/huddle-2.png" alt="Huddle Landing Page">
-                            <a href="#" class="github-link">
-                                🔗 Ver no GitHub Pages
-                            </a>
-                        </div>
-                        
-                        <div class="project-description">
-                            <h3>Huddle Landing Page</h3>
-                            <p>
-                                This is a solution to the Huddle Landing Page with Single Introductory Section challenge on Frontend Mentor. Users should be able to view the optimal layout for the page depending on their device's screen size and see hover states for all interactive elements on the page.
-                            </p>
-                            <p>Built with: HTML and CSS.</p>
-                        </div>
-                    </div>
+                    <nav class="projects-nav">
+                        <ul>
+                            <li>
+                                <a href="#project-1">
+                                    <i class="fas fa-circle current-project"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-2">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-3">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-4">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-5">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>            
+                        </ul>
+                    </nav>
+                </div>
 
-                <!-- <a href="">
-                    <div class="projects-container">
-                        <img src="./src/imagens/screenshot-advice-generator.png" alt="Advice Generator">
-                        <div class="projects-info">
-                            <h3>Advice Generator</h3>
-                            <p>🔗 Ver no GitHub Pages</p>
+                <div id="project-2">
+                    <div class="slider">
+                        <a href="#project-1">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <div class="project-content">
+                            <div class="project-img">
+                                <a href="#" class="github-link">
+                                    🔗 Ver no GitHub Pages
+                                </a>
+                            </div>
+                            <div class="project-info">
+                                <h3>NFT Card</h3>
+                                <p>
+                                    This is a solution to the NFT Preview Card Component challenge on Frontend Mentor. Users should be able to view the optimal layout depending on their device's screen size and see hover states for interactive elements.
+                                </p>
+                                <p>Built with: HTML and CSS.</p>
+                                <a href="#">🔗 Ver no GitHub Pages</a>
+                            </div>
                         </div>
+                        <a href="#project-3">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>   
                     </div>
-                </a>
-                <a href="">
-                    <div class="projects-container">
-                        <img src="./src/imagens/screenshot-nft.png" alt="NFT Card">
-                        <div class="projects-info">
-                            <h3>NFT Card</h3>
-                            <p>🔗 Ver no GitHub Pages</p>
+                    <nav class="projects-nav">
+                        <ul>
+                            <li>
+                                <a href="#project-1">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-2">
+                                    <i class="fas fa-circle current-project"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-3">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-4">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-5">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>                
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="project-3">
+                    <div class="slider">
+                        <a href="#project-2">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>  
+                        <div class="project-content">
+                            <div class="project-img">
+                                <a href="#" class="github-link">
+                                    🔗 Ver no GitHub Pages
+                                </a>
+                            </div>
+                            <div class="project-info">
+                                <h3>Advice Generator</h3>
+                                <p>
+                                    This is a solution to the Advice generator app challenge on Frontend Mentor. Users should be able to view the optimal layout for the page depending on their device's screen size and see hover states for all interactive elements on the page.
+                                </p>
+                                <p>Built with: HTML and CSS.</p>
+                                <a href="#">🔗 Ver no GitHub Pages</a>
+                            </div>
                         </div>
+                        <a href="#project-4">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>   
                     </div>
-                </a>
-                <a href="">
-                    <div class="projects-container">
-                        <img src="./src/imagens/screenshot-agencia-xyz.png" alt="Agência XYZ">
-                        <div class="projects-info">
-                            <h3>Agência XYZ</h3>
-                            <p>🔗 Ver no GitHub Pages</p>
+                    <nav class="projects-nav">
+                        <ul>
+                            <li>
+                                <a href="#project-1">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-2">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-3">
+                                    <i class="fas fa-circle current-project"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-4">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-5">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>                
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="project-4">
+                    <div class="slider">
+                        <a href="#project-3">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <div class="project-content">
+                            <div class="project-img">
+                                <a href="#" class="github-link">
+                                    🔗 Ver no GitHub Pages
+                                </a>
+                            </div>
+                            <div class="project-info">
+                                <h3>Agência XYZ</h3>
+                                <p>
+                                    This is a challenge proposed by the Dev Quest course and built using CSS Grid concepts. Users should be able to view the optimal layout for the page depending on their device's screen size and see hover states for all interactive elements on the page.
+                                </p>
+                                <p>Built with: HTML and CSS.</p>
+                                <a href="#">🔗 Ver no GitHub Pages</a>
+                            </div>
                         </div>
+                        <a href="#project-5">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>   
                     </div>
-                </a>
-                <a href="">
-                    <div class="projects-container">
-                        <img src="./src/imagens/screenshot-agencia-xyz.png" alt="Sunnyside Agency">
-                        <div class="projects-info">
-                            <h3>Sunnyside Agency</h3>
-                            <p>🔗 Ver no GitHub Pages</p>
+                    <nav class="projects-nav">
+                        <ul>
+                            <li>
+                                <a href="#project-1">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-2">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-3">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-4">
+                                    <i class="fas fa-circle current-project"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-5">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>                
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="project-5">
+                    <div class="slider">
+                        <a href="#project-4">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <div class="project-content">
+                            <div class="project-img">
+                                <a href="#" class="github-link">
+                                    🔗 Ver no GitHub Pages
+                                </a>
+                            </div>
+                            <div class="project-info">
+                                <h3>Agência XYZ</h3>
+                                <p>
+                                    This is a challenge proposed by the Dev Quest course and built using CSS Grid concepts. Users should be able to view the optimal layout for the page depending on their device's screen size and see hover states for all interactive elements on the page.
+                                </p>
+                                <p>Built with: HTML and CSS.</p>
+                                <a href="#">🔗 Ver no GitHub Pages</a>
+                            </div>
                         </div>
+                        <a href="#project-1">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>   
                     </div>
-                </a> -->
+                    <nav class="projects-nav">
+                        <ul>
+                            <li>
+                                <a href="#project-1">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-2">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-3">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-4">
+                                    <i class="fas fa-circle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project-5">
+                                    <i class="fas fa-circle current-project"></i>
+                                </a>
+                            </li>                
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </section>
-    </div>
-        <footer>
-            <p>Contact Me</p>
-            <ul class="social-media">
-                <li><a href="" class="href" taget="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="" class="href"><i class="fab fa-github" taget="_blank"></i></a></li>
-                <li><a href="" class="href"><i class="fab fa-behance" taget="_blank"></i></a></li>
-                <li><a href="mailto:carolinaciolin@gmail.com" class="href" taget="_blank"><i class="fas fa-envelope"></i></a></li>
-            </ul>
-            <a href="mailto:carolinaciolin@gmail.com" class="email">carolinaciolin@gmail.com</a>
-        </footer>
+    </main>          
+    <footer>
+        <p>Contact Me</p>
+        <ul class="social-media">
+            <li><a href="" class="href" taget="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="" class="href"><i class="fab fa-github" taget="_blank"></i></a></li>
+            <li><a href="" class="href"><i class="fab fa-behance" taget="_blank"></i></a></li>
+            <li><a href="mailto:carolinaciolin@gmail.com" class="href" taget="_blank"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+        <a href="mailto:carolinaciolin@gmail.com" class="email">carolinaciolin@gmail.com</a>
+    </footer>
 </body>
 </html>

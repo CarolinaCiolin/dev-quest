@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #projetos{
+            border: 2px solid red;
+            height: 200px;
+            /* display: flex;
+            flex-direction: column; */
+            overflow: hidden;
+        }
+
+        .item{
+            height: 100%;
+            position: relative;
+            width: 200px;
+        }
+
+        .content{
+            height: 100%;
+        }
+
+        .setas{
+            /* background-color: blue; */
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            top: 0;
+            padding: 20px;
+        }
+
+        #item-1{
+            background-color:darkgreen;
+        }
+
+        #item-2{
+            background-color:darkcyan;
+        }
+
+        #item-3{
+            background-color:darkgoldenrod;
+        }
+
+        #item-4{
+            background-color:darkorchid;
+        }
+
+        #item-5{
+            background-color:darkmagenta;
+        }
+
+        
+        #content-item-1{
+            background-color:darkgreen;
+        }
+
+        #content-item-2{
+            background-color:darkcyan;
+        }
+
+        #content-item-3{
+            background-color:darkgoldenrod;
+        }
+
+        #content-item-4{
+            background-color:darkorchid;
+        }
+
+        #content-item-5{
+            background-color:darkmagenta;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="projetos">
+    
+        <div class="item" id="item-1">
+            <div class="content" id="content-item-1">
+                A
+            </div>
+            <div class="setas">
+                <a href="#content-item-5">
+                    <div class="seta seta-esquerda">E</div>
+                </a>
+                <a href="#content-item-2">
+                    <div class="seta seta-direita">D</div>
+                </a>
+            </div>
+        </div>    
+
+        <div class="item" id="item-2">
+            <div class="content" id="content-item-2">
+                B
+            </div>
+            <div class="setas">
+                <a href="#content-item-1">
+                    <div class="seta seta-esquerda">E</div>
+                </a>
+                <a href="#content-item-3">
+                    <div class="seta seta-direita">D</div>
+                </a>
+            </div>
+        </div>    
+
+        <div class="item" id="item-3">
+            <div class="content" id="content-item-3">
+                C
+            </div>
+            <div class="setas">
+                <a href="#content-item-2">
+                    <div class="seta seta-esquerda">E</div>
+                </a>
+                <a href="#content-item-4">
+                    <div class="seta seta-direita">D</div>
+                </a>
+            </div>
+        </div>      
+
+        <div class="item" id="item-4">
+            <div class="content" id="content-item-4">
+                D
+            </div>
+            <div class="setas">
+                <a href="#content-item-3">
+                    <div class="seta seta-esquerda">E</div>
+                </a>
+                <a href="#content-item-5">
+                    <div class="seta seta-direita">D</div>
+                </a>
+            </div>
+        </div>  
+
+        <div class="item" id="item-5">
+            <div class="content" id="content-item-5">
+                E
+            </div>
+            <div class="setas">
+                <a href="#content-item-4">
+                    <div class="seta seta-esquerda">E</div>
+                </a>
+                <a href="#content-item-1">
+                    <div class="seta seta-direita">D</div>
+                </a>
+            </div>
+        </div>    
+
+    </div>
+
+    <div class="bolinhas">
+        <a href="#content-item-1">o</a>
+        <a href="#content-item-2">o</a>
+        <a href="#content-item-3">o</a>
+        <a href="#content-item-4">o</a>
+        <a href="#content-item-5">o</a>
+        
+    </div>
+
+    <div class="texto">
+        sdfsdfdsfsdfsdfs
+    </div>
+</body>
+</html>

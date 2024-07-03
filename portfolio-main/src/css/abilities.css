@@ -1,0 +1,30 @@
+/* --- ABILITIES --- */
+
+.abilities{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+.softwares{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.softwares > .icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.softwares > .icon-container > i{
+    font-size: 5rem;
+}
+
+.softwares > .icon-container > h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
