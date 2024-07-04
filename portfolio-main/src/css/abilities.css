@@ -1,0 +1,28 @@
+
+#abilities{
+    display: flex;
+    flex-direction: column;
+}
+
+.softwares{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.softwares > .icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.softwares > .icon-container > i{
+    font-size: 4rem;
+}
+
+.softwares > .icon-container > h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
