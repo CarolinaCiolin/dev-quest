@@ -12,14 +12,12 @@
 }
 
 .hero-container > .hero-info{
-    display: flex;
-    flex-direction: column;
     gap: 20px;
 }
 
 .hero-container > .hero-info > h1{
     font-size: 4rem;
-    font-family: "Courgette", cursive;
+    font-family: var(--font-secondary);
 }
 
 .hero-container > .hero-info > p{
@@ -33,12 +31,8 @@
     line-height: 4rem;
 }
 
-.social-media > li{
-    font-size:;
-}
-
 .hero-container > .profile-picture-bg{
-	background: linear-gradient(to right, #e2277c, #cb0f31, #000000);
+	background: linear-gradient(to right, var(--color-pink), var(--color-dark-red), #000);
 	background-size: 180% 180%;
 	animation: gradient-animation 5s ease alternate infinite;
     border-radius: 50%;
@@ -65,8 +59,7 @@
 
 .fas.fa-arrow-down{
     font-size: 4rem;
-    /* position: relative; */
-    background: -webkit-linear-gradient(#e2277c, #cb0f31);
+    background: -webkit-linear-gradient(var(--color-pink), var(--color-dark-red));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 	background-size: 100% 100%;
@@ -76,19 +69,6 @@
 @-webkit-keyframes arrow{
     0% { -webkit-transform: translateY(-0.8em); opacity: 0.2;}
     100% { -webkit-transform: translateY(0.4em); opacity: 0.9;}
-}
-
-.email{
-    font-size: 1.6rem;
-}
-
-.email:hover{
-    color: crimson;
-}
-
-.social-media a i:hover{
-    color: crimson;
-    transform: scale(1.4);
 }
 
 @media(max-width: 900px){

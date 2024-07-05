@@ -1,9 +1,3 @@
-
-#abilities{
-    display: flex;
-    flex-direction: column;
-}
-
 .softwares{
     display: flex;
     flex-wrap: wrap;
@@ -12,8 +6,6 @@
 }
 
 .softwares > .icon-container{
-    display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 10px;
 }

@@ -1,16 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    /* border: none;
-    outline: none; */
     box-sizing: border-box;
 }
 
 a{
     text-decoration: none;
-    color: var(--color-white);
+    color: #fff;
 }
 
 ul{
     list-style: none;
 }
+
+address{
+    font-style: normal;
+  }
