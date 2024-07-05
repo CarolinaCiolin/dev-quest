@@ -2,7 +2,7 @@ footer{
     background-color: #000;
     display: flex;
     flex-direction: column;
-    height: 150px;
+    height: 180px;
     justify-content: center;
     align-items: center;
     gap: 20px;
