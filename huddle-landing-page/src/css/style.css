@@ -57,7 +57,7 @@ main{
     padding: 12px 50px;
     color: var(--violet);
     box-shadow: 0 0 8px #282828;
-    border-radius: 20px;
+    border-radius: 30px;
     transition: 0.3s;
 }
 
@@ -75,14 +75,17 @@ footer{
     gap: 20px;
 }
 
-footer > address{
-    display: flex;
-    gap: 10px;
+footer > .social-media{
     align-self: flex-end;
 }
 
-footer > address > a{
-    border: 2px solid #fff;
+footer > .social-media > ul{
+    display: flex;
+    gap: 10px;
+}
+
+footer > .social-media > ul > li > a{
+    border: 1px solid #fff;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -92,15 +95,15 @@ footer > address > a{
     transition: 0.3s;
 }
 
-footer > address > a:hover{
+footer > .social-media > ul > li > a:hover{
     border-color: var(--magenta);
 }
 
-footer > address > a:hover > i{
+footer > .social-media > ul > li > a:hover i{
     color: var(--magenta);
 }
 
-footer > address > a > i{
+footer > .social-media > ul > li > a > i{
     font-size: 18px;
 }
 

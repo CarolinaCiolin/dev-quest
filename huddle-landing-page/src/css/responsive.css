@@ -68,4 +68,12 @@
     footer{
         gap: 50px;
     }
+
+    .info > h1{
+        font-size: 24px;
+    }
+
+    .info > p{
+        font-size: 15px;
+    }
 }
