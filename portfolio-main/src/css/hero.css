@@ -24,13 +24,6 @@
     font-size: 2.4rem;
 }
 
-.social-media {
-    display: flex;
-    gap: 30px;
-    font-size: 2.8rem;
-    line-height: 4rem;
-}
-
 .hero-container > .profile-picture-bg{
 	background: linear-gradient(to right, var(--color-pink), var(--color-dark-red), #000);
 	background-size: 180% 180%;
