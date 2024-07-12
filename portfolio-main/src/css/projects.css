@@ -7,12 +7,17 @@
 
 .project-container{
     width: 345px;
-    border: 1px solid var(--color-dark-red); 
+    height: 480px;
+    border: 1px solid var(--color-dark-red);
+    transition: 0.5s; 
+}
+
+.project-container:hover{
+    transform: scale(1.05);
 }
 
 .project-description{
     padding: 20px;
-    gap: 20px;
     background-color: #000;
     height: 100%;
 }
@@ -25,6 +30,7 @@
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .project-container > .project-description > p{
