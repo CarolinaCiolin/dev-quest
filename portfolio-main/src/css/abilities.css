@@ -10,7 +10,7 @@
     padding: 20px;
     transition: 0.5s;
     width: 345px;
-    height: 355px;
+    height: 325px;
     align-items: center;
     background-color: #000;
 }
@@ -27,7 +27,7 @@
 
 .abilities-container > .abilities-item > h3{
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
